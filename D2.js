@@ -41,8 +41,8 @@ else console.log("Controllo non superato");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let totalShoppingCart = 30.5;
-let delivery = 0.1;
-let totalPrice = totalShoppingCart > 50 ? totalShoppingCart : totalShoppingCart + totalShoppingCart * delivery;
+let delivery = 10;
+let totalPrice = totalShoppingCart > 50 ? totalShoppingCart : totalShoppingCart + delivery;
 console.log("Ammontare totale per il checkout : " + totalPrice + " euro");
 
 /* ESERCIZIO 6
